@@ -1,0 +1,20 @@
+# competition data is not redistributable
+data/
+images/
+*.zip
+*.csv
+# training outputs
+runs/
+submissions/
+logs/
+kaggle/out*/
+# environments and caches
+.venv/
+.kvenv/
+.tmp/
+__pycache__/
+*.pyc
+# credentials
+kaggle.json
+access_token
+.env
